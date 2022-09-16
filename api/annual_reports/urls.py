@@ -4,7 +4,7 @@ from annual_reports.views import ListIncomeStatements, ListBalanceSheetStatement
 
 
 urlpatterns = [
-    path('<str:symbol>/income-statements/', ListIncomeStatements.as_view()),
-    path('<str:symbol>/balance-sheet-statements/', ListBalanceSheetStatements.as_view()),
-    path('<str:symbol>/cash-flow-statements/', ListCashFlowStatements.as_view()),
+    path('<str:symbol>/income-statement/', ListIncomeStatements.as_view()),
+    path('<str:symbol>/balance-sheet-statement/', ListBalanceSheetStatements.as_view()),
+    path('<str:symbol>/cash-flow-statement/', ListCashFlowStatements.as_view()),
 ]
