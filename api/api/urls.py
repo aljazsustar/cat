@@ -17,4 +17,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('api/annual-reports/', include('annual_reports.urls')),
+    path('api/symbols', include('indicators.urls'))
 ]

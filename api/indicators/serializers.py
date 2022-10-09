@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from api.indicators.models import Indicator
+from indicators.models import Indicator
 
 
 class IndicatorSerializer(serializers.ModelSerializer):
